@@ -1,0 +1,57 @@
+body{
+    
+}
+.h1H{
+    font-size:smaller;
+}
+header h1,p{
+    font-size: 115;
+    /* color: red; */
+}
+.textHeder{
+    /* border-style: inset; */
+    /* background-color: rgb(170, 0, 0); */
+    /* color: red; */
+    top: 18px;
+    width: 97%;
+
+}
+.footbal{
+    width: fit-content;
+}
+.bigpic{
+    width: 460px;
+    height: 549px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+    background-image: url(pho1.jpg);
+    
+    border-style: inset;
+    animation: pic 8s linear;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out
+
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+width: 93vw;
+}
+@keyframes pic{
+    0%{
+        background-image: url(pho1.jpg)
+    }
+    25%{
+        background-image: url(pho2.jpg);
+    }
+    50%{
+        /* background-image: url(pho3.jpg); */
+    }
+    100%{
+        /* background-image: url(pho4.jpg); */
+    }
+}
